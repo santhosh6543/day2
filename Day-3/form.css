@@ -1,0 +1,57 @@
+/* RegistrationPage.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ebf8d6;
+    background-image: url("https://media.istockphoto.com/id/1410966336/photo/abstract-blurred-office-interior-room-blurry-working-space-with-defocused-effect.webp?b=1&s=170667a&w=0&k=20&c=ep3ZfO6BGBwmIL55OukpkICgDLNR9swZM0NdcPEUasE=");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  }
+  
+  .container {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+  }
+  
+  h2 {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: center;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #f79926;
+  }
